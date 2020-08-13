@@ -30,3 +30,235 @@ h1 {
     color: rgba(0,0,0,.5);
 }
 
+.hbd {
+    margin-top: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    width: 200px;
+    height: 50px;
+    background-color: royalblue;
+    color: black;
+}
+
+.wrapper { 
+    height: 200%;
+    width: 100%;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  background-size: 1800% 1800%;
+  
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+    animation: rainbow 18s ease infinite;}
+  
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
+
+.tersembunyi {
+    text-align: left;
+}
+
+.teks {
+    text-align: left;
+    font-size: 20px;
+    margin: 0px 100px;
+    position: relative;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.hidden {
+    display: none;
+}
+
+.banner > img {
+    width: 500px;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 900px;
+    transform: rotate(25deg);
+}
+
+.ramai > img  {
+    width: 600px;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: -80px;
+    transform: rotate(-25deg);
+}
+
+.baloon > img  {
+    width: 1300px;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    left: -30px;
+}
+
+.tumpeng > img  {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 200px;
+    left: -80px;
+}
+
+.kaya > img  {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 180px;
+    left: 1000px;
+}
+
+.gambar > img {
+    position: absolute;
+    width: 250px;
+    height: auto;
+}
+
+#gb1 {
+    top: 50px;
+    left: 100px;
+}
+
+#gb2 {
+    top: 800px;
+    left: 50px;
+}
+
+#gb3 {
+    top: 650px;
+    left: 1200px;
+}
+
+#gb4 {
+    top: 450px;
+    left: 1110px;
+}
+
+#gb5 {
+    top: 250px;
+    left: 800px;
+}
+
+#gb6 {
+    top: 100px;
+    left: 320px;
+}
+
+#gb7 {
+    top: 150px;
+    left: 1200px;
+}
+
+#gb8 {
+    top: 500px;
+    left: 500px;
+}
+
+#gb9 {
+    top: 600px;
+    left: 900px;
+}
+
+#gb10 {
+    top: 730px;
+    left: 100px;
+}
+
+#gb11 {
+    top: 780px;
+    left: 800px;
+}
+
+#gb12 {
+    top: 420px;
+    left: 300px;
+}
+
+#gb13 {
+    top: 240px;
+    left: 200px;
+}
+
+#gb14 {
+    top: 560px;
+    left: 700px;
+}
+
+#gb15 {
+    top: 90px;
+    left: 800px;
+}
+
+#gb16 {
+    top: 120px;
+    left: 1000px;
+}
+
+#gb17 {
+    top: 370px;
+    left: 50px;
+}
+
+#gb18 {
+    top: 480px;
+    left: 100px;
+}
+
+#gb19 {
+    top: 140px;
+    left: 170px;
+}
+
+#gb20 {
+    top: 490px;
+    left: 200px;
+}
+#gb21 {
+    top: 710px;
+    left: 900px;
+}
+
+.makaci {
+    margin-top: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    width: 600px;
+    height: 50px;
+    background-color: yellow;
+    color: black;
+}
